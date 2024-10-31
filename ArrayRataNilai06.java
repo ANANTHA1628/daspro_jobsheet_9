@@ -9,8 +9,12 @@ public class ArrayRataNilai06 {
         double totalTidakLulus = 0;
         int mhsLulus = 0; 
         int mhsTidakLulus = 0;
+        int jmlhMhs;
 
-        for (int i = 0; i < nilaiMhs.length; i++) {
+        System.out.print("masukkan jumlah mahasiswa : ");
+        jmlhMhs=sc.nextInt();
+
+        for (int i = 0; i < jmlhMhs; i++) {
             System.out.print("Masukkan nilai Mahasiswa ke- "+ (i +1) + " : ");
             nilaiMhs[i] = sc.nextInt();
 

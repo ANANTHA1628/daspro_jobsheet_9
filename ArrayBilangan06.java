@@ -1,4 +1,4 @@
-public class ArrayBilangan16 {
+public class ArrayBilangan06 {
     public static void main(String[] args) {
         int[] bil = {5, 13, -7, 17};
 
